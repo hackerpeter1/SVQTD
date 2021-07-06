@@ -1,121 +1,82 @@
-<<<<<<< Updated upstream
-## Welcome to GitHub Pages
+# Vocal Quality&Vocal Technique DataSet (VQVTSet)
 
-You can use the [editor on GitHub](https://github.com/hackerpeter1/paralinguistic-singing-attributes-recognition/edit/page/README.md) to maintain and preview the content for your website in Markdown files.
+**## Introduction**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The motivation of designing VQVTSet is to better describe the singing voice using the paralinguistic singing attributes that are popularized in the vocal pedagogy. It can be used for performing the paralinguistic singing attribute recognition and analysis.
 
-### Markdown
+There are nearly 4000 vocal segments, totaling 10.7 hours, in the VQVTSet. The amount of vocal segments corresponding to the aria is shown in below. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![]{song_num.jpg}
 
-```markdown
-Syntax highlighted code block
+For each vocal segment, there are seven paralinguistic singing attributes should be subjectively labeled with different classes. The seven paralinguistic singing attribtues selected are head resonance, chest resonance, open throat, roughness, vibrato, front placement singing, back placement singing. The below figure shows the amounts of vocal segments of each class of each paralinguistic singing attribute.
 
-# Header 1
-## Header 2
-### Header 3
+![]{segnum2class.jpg}
 
-- Bulleted
-- List
+To help better understand, we select the example pair for each paralinguistic singing attribute. However, note that the example pair is just a specific case for corresponding paralinguistic singing attributes since these attributes can not be well-defined.
 
-1. Numbered
-2. List
+​    
 
-**Bold** and _Italic_ and `Code` text
+​    Tables and links ![]{examples.wav}
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+**## Data preparation** 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hackerpeter1/paralinguistic-singing-attributes-recognition/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Please contact the corresponding author for getting the csv that included labels and YouTube links. Firstly, you should download the data by YouTube links. Furthermore, you need to further process the data, removing accompaniment, using the 2 stems separation model in [spleeter]{htpps://github.com/deezer/spleeter}. Specifically, 
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-=======
-## Vocal Quality&Vocal Technique DataSet (VQVTSet)
 
-### Introduction
+\```
 
-The motivation of designing VQVTSet is to better describe the singing voice using the paralinguistic singing attributes that are popularized in the vocal pedagogy. It can be used for performing the paralinguistic singing attribute recognition and analysis. In the dataset, there are nearly 4000 vocal segments partitioned from classical tenor solo performances uploaded on YouTube, totaling 10.7 hours. 
+\# install spleeter 
 
-For each vocal segment, there are seven paralinguistic singing attributes that should be subjectively labeled with different classes. The seven paralinguistic singing attributes selected are head resonance, chest resonance, open throat, roughness, vibrato, front placement singing, back placement singing. The below figure shows the amounts of vocal segments of each class of each paralinguistic singing attribute.
+详细介绍 
 
-![]{segnum2class.jpg}  （图：undone）
+\# performing music 
 
-To help better understand, we select the example pair for each paralinguistic singing attribute shown in the table below. (note that the paralinguistic singing attributes are not well-defined, the example pairs are just for reference)
+安装spleeter 
 
-| Paralinguistic Singing Attributes |                           |      |      |
-| --------------------------------- | ------------------------- | ---- | ---- |
-| head resonance                    | ![]{examples.wav}（样本） |      |      |
-| chest resonance                   |                           |      |      |
-| open throat                       |                           |      |      |
-| roughness                         |                           |      |      |
-| vibrato                           |                           |      |      |
-| front placement singing           |                           |      |      |
-| back placement singing            |                           |      |      |
+运行代码
 
-### Data Preparation
+\```
 
-Please contact the corresponding author for getting the csv that included labels and YouTube links. Firstly, you should download the data by YouTube links. Furthermore, you need to further process the data, removing accompaniment, using the 2 stems separation model in [spleeter]{htpps://github.com/deezer/spleeter}. 
 
-(comment: 可以更加详细，分离批处理脚本，数据切割脚本，以后补)
 
-### Running codes for recognition task
 
-#### Framework1: Feature set & Support Vector Machine (FSSVM)
 
-step1
+**### Feature set**
 
-```
-需要安装什么？
-pickle
-argparse
-numpy
-pandas
-tqdm 
-sklearn 
-```
 
-step2 
 
-train model + 讲解 
+\- Deployment
 
-```
-FSSVM.py ....
-```
+  \- FSSVM
 
-test model + 讲解 pred UAR
+​    \- 安装什么
 
-```
-E2E.py 
-```
+​    \- 代码在哪里
 
-#### Framework2: End-to-end (E2E)
+​    \- 怎么跑起来
 
-安装
+​    \- 怎么看结果
 
-代码结果讲解
+  \- E2E
 
-跑起来
+​    \- 代码在哪里
 
-怎么看结果
+​    \- 怎么跑起来
 
-#### Framework3: Representation & Support Vector Machine (RPSVM)
+​    \- 怎么看结果
 
-安装
+  \- RPSVM
 
-怎么跑起来
+​    \- 代码在哪里
 
-怎么看结果
+​    \- 怎么跑起来
 
-----
+​    \- 怎么看结果
 
-以后补
+\- Other tools
 
   \- fusion
 
@@ -132,4 +93,3 @@ E2E.py
 ​    \- 代码 
 
 ​    \- 例子 
->>>>>>> Stashed changes
