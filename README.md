@@ -19,7 +19,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Chest Resonance                    | Class: 2                           | Class: 4                           |
      | ---------------------------------- | ---------------------------------- | ---------------------------------- |
      | Spectrogram+forments visualization | ![](./image_examples/Chest_C2.png) | ![](./image_examples/Chest_C4.png) |
-     | audio                              | [](./audio_examples/Chest_C2.wav)  | [](./audio_examples/Chest_C4.wav)  |
+     | audio                              | [Click](./audio_examples/Chest_C2.wav)  | [Click](./audio_examples/Chest_C4.wav)  |
 
 2. Head Resonance
 
@@ -32,7 +32,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Head Resonance                     | Class: 1                          | Class: 4                          |
      | ---------------------------------- | --------------------------------- | --------------------------------- |
      | Spectrogram+forments visualization | ![](./image_examples/Head_C1.png) | ![](./image_examples/Head_C4.png) |
-     | audio                              | [](./audio_examples/Head_C1.wav)  | [](./audio_examples/Head_C4.wav)  |
+     | audio                              | [Click](./audio_examples/Head_C1.wav)  | [Click](./audio_examples/Head_C4.wav)  |
 
 3. Front Placement singing
 
@@ -45,7 +45,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Front Placement singing            | Class: 1                           | Class: 2                           |
      | ---------------------------------- | ---------------------------------- | ---------------------------------- |
      | Spectrogram+forments visualization | ![](./image_examples/Front_C1.png) | ![](./image_examples/Front_C2.png) |
-     | audio                              | [](./audio_examples/Front_C1.wav)  | [](./audio_examples/Front_C2.wav)  |
+     | audio                              | [Click](./audio_examples/Front_C1.wav)  | [Click](./audio_examples/Front_C2.wav)  |
 
 4. Back placement singing
 
@@ -58,7 +58,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Back Placement singing             | Class: 1                                 | Class: 2                                 |
      | ---------------------------------- | ---------------------------------------- | ---------------------------------------- |
      | Spectrogram+forments visualization | ![Back_C1](./image_examples/Back_C1.png) | ![Back_C2](./image_examples/Back_C2.png) |
-     | audio                              | [](./audio_examples/Back_C1.wav)         | [](./audio_examples/Back_C2.wav)         |
+     | audio                              | [Click](./audio_examples/Back_C1.wav)         | [Click](./audio_examples/Back_C2.wav)         |
 
 5. Open throat/openness
 
@@ -71,7 +71,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Open throat                        | Class: 1                          | Class: 4                          |
      | ---------------------------------- | --------------------------------- | --------------------------------- |
      | Spectrogram+forments visualization | ![](./image_examples/Open_C1.png) | ![](./image_examples/Open_C4.png) |
-     | audio                              | [](./audio_examples/Open_C1.wav)  | [](./audio_examples/Open_C4.wav)  |
+     | audio                              | [Click](./audio_examples/Open_C1.wav)  | [Click](./audio_examples/Open_C4.wav)  |
 
 6. Roughness
 
@@ -84,7 +84,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Roughness                          | Class: 1                           | Class: 2                           |
      | ---------------------------------- | ---------------------------------- | ---------------------------------- |
      | Spectrogram+forments visualization | ![](./image_examples/Rough_C1.png) | ![](./image_examples/Rough_C2.png) |
-     | audio                              | [](./audio_examples/Rough_C1.wav)  | [](./audio_examples/Rough_C2.wav)  |
+     | audio                              | [Click](./audio_examples/Rough_C1.wav)  | [Click](./audio_examples/Rough_C2.wav)  |
 
 7. Vibrato
 
@@ -97,7 +97,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Vibrato                            | Class: 2                             | Class: 3                             |
      | ---------------------------------- | ------------------------------------ | ------------------------------------ |
      | Spectrogram+forments visualization | ![](./image_examples/Vibrato_C2.png) | ![](./image_examples/Vibrato_C3.png) |
-     | audio                              | [](./audio_examples/Vibrato_C2.wav)  | [](./audio_examples/Vibrato_C3.wav)  |
+     | audio                              | [Click](./audio_examples/Vibrato_C2.wav)  | [Click](./audio_examples/Vibrato_C3.wav)  |
 
 ## Production pipeline
 
