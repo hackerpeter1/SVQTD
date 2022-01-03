@@ -113,7 +113,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
    | [Click](./audio_examples/bad_samples/_bSHFUqcs8g/8.mp3)      | The Spleeter doesn't work for the low register and works 'too much for the highest note, the highest note can not be heard clearly. |
    | [Click](./audio_examples/bad_samples/_yoQ2PMVMRY/17.mp3)     | The last whispering can not be heard.                        |
-   | [Click](./audio_examples/bad_samples/—L3uqoQUV4/16.mp3)      | The Spleeter doesn't work, background music can be heard.    |
+   | [Click](./audio_examples/bad_samples/--L3uqoQUV4/16.mp3)     | The Spleeter doesn't work, background music can be heard.    |
    | [Click](./audio_examples/bad_samples/1eMtK2-0GOU/0.mp3)      | The Spleeter doesn't work, background music can be heard.    |
    | [Click](./audio_examples/bad_samples/b5pkuOAzzVM&list=PLcO-An1UmmHXT2NRraQU-EDf2sFkjFOJk&index=15&t=0s/14.mp3) | Several vowels of high register can not be heard.            |
 
