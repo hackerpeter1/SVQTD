@@ -1,0 +1,68 @@
+{
+    "num_task": 2,
+    "E2Emodel_name": "Resnet_Fbank_task2",
+    "E2Emodel_epoch":7,
+    "trainset": {
+        "type": "FbankDataSet",
+        "args": {
+            "Y_list": "/mingback/xuyz/separated3/csv/train.csv",
+            "wav_dir": "/mingback/xuyz/separated3/",
+            "data_augment": false,
+            "sr": 44100,
+            "n_fft": 4096,
+            "hop_length": 1024
+        }
+    },
+    "trainloader": {
+        "type": "PaddingDataLoader",
+        "args": {
+            "batch_size": 8,
+            "num_workers": 3,
+            "shuffle": true
+        }
+    },
+    "validateset": {
+        "type": "FbankDataSet",
+        "args": {
+            "Y_list": "/mingback/xuyz/separated3/csv/dev.csv",
+            "wav_dir": "/mingback/xuyz/separated3/",
+            "data_augment": false,
+            "sr": 44100,
+            "n_fft": 4096,
+            "hop_length": 1024
+        }
+    },
+    "validateloader": {
+        "type": "PaddingDataLoader",
+        "args": {
+            "batch_size": 8,
+            "num_workers": 3,
+            "shuffle": true
+        }
+    },
+    "testset": {
+        "type": "FbankDataSet",
+        "args": {
+            "Y_list": "/mingback/xuyz/separated3/csv/test.csv",
+            "wav_dir": "/mingback/xuyz/separated3/",
+            "data_augment": false,
+            "sr": 44100,
+            "n_fft": 4096,
+            "hop_length": 1024
+        }
+    },
+    "testloader": {
+        "type": "PaddingDataLoader",
+        "args": {
+            "batch_size": 8,
+            "num_workers": 3,
+            "shuffle": true
+        }
+    },
+    "model": {
+        "type": "ResNet34AvgDropNet",
+        "args": {
+            "in_planes": 16
+        }
+    }
+}
