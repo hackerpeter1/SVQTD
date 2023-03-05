@@ -13,5 +13,5 @@
 * 5. ./RPSVM.py can be used to extract embeddings and train a SVM classifier using them. 
 * 6. ./FSSVM.py can be used to train a SVM classifier using features from ComParE feature set.
 
-Since our code is not user-friendly, if you have any questions about dataset downloading or the training code, feel free to contact me through yanze.xu@outlook.com. Also welcome to talk with me if you are interested in timbre phenoemena. 
+Since our code is not user-friendly, if you have any questions about dataset downloading or the training code, please feel free to contact me through yanze.xu@outlook.com. Also welcome to talk with me if you are interested in timbre phenoemena. 
 
