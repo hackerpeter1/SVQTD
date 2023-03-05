@@ -95,7 +95,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
 
 ## Production pipeline
 
-1. Download videos from YouTube. The top 100 amateur videos of six famous tenor arias are retrieved from YouTube. To obtain the videos from singers who have different singing skills and levels of expertise, the words `cover|student|amateur' is appended to the song name to search for videos. All of the downloaded videos are converted to 16 kHz sampled waveform audio files (WAV). Moreover, we manually remove audios that are too noisy, non-solo, and repetitive. Note that we keep audios sang by the same singer but performed at different times. The reason is that singers may have different voice qualities and use different vocal techniques at different career stages.
+1. Download videos from YouTube. The top 100 amateur videos of six famous tenor arias are retrieved from YouTube. To obtain the videos from singers who have different singing skills and levels of expertise, the words "cover, student, or amateur" is appended to the song name to search for videos. All of the downloaded videos are converted to 16 kHz sampled waveform audio files (WAV). Moreover, we manually remove audios that are too noisy, non-solo, and repetitive. Note that we keep audios sang by the same singer but performed at different times. The reason is that singers may have different voice qualities and use different vocal techniques at different career stages.
 
 2. Extract vocal tracks using end-to-end music source separation model. The solo audio clips are often with accompaniment. However, the accompaniment is irrelevant to our task because we only focus on the timbral interaction between human listeners and singing voices. We achieve it by using the end-to-end music source separation model spleeter.
 
@@ -112,7 +112,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
    | [Click](./audio_examples/bad_samples/b5pkuOAzzVM&list=PLcO-An1UmmHXT2NRraQU-EDf2sFkjFOJk&index=15&t=0s/14.mp3) | Several singing vowels of high register can not be heard clearly. |
 
 
-## Download
+## Data Request
 To download the released dataset, please:
 1. Download the Agreement Sheet.pdf and sign it.
 2. Send the PDF version of scanned Agreement Sheet with signature to yanze.xu@outlook.com. 
