@@ -91,7 +91,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Vibrato                            | Class: 1                                                     | Class: 2                                                     |
      | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
      | Spectrogram+forments visualization | ![](./image_examples/Vibrato_C2.png)                         | ![](./image_examples/Vibrato_C3.png)                         |
-     | audio                              | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Vibrato_C2.wav" type="audio/mp3"><br/></video> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Vibrato_C3.wav" type="audio/mp3"><br/></video> |
+     | audio                              | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Vibrato_C2.wav" type="audio/mp3"><br/></audio> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Vibrato_C3.wav" type="audio/mp3"><br/></video> |
 
 ## Production pipeline
 
