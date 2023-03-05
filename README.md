@@ -1,103 +1,97 @@
 
 
-> A dataset to better describe and discriminate the timbral phenomena of classical tenor singing voices from vocal pedagogy point of view.
+> Motivation: better describe and discriminate the timbral phenomena of singing voices from vocal pedagogy point of view. 
+>
+> Keyword: music perception and cognition, paralinguistic singing attribute recognition, timbre analysis
 
 # SVQTD - Singing Voice Quality and Technique Database
 ## Introduction
-SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singing dataset collected from YouTube for performing paralinguistic singing attribute recognition tasks. In the SVQTD, there are nearly 4000 vocal solo segments with $4 - 20$ seconds long, totaling 10.7 hours. And they are partitioned from four hundred audios that are download from YouTube by searching the names of six famous tenor arias. Furthermore, each segment is labeled on seven verbal scales corresponding to seven paralinguistic singing attributes, respectively. 
+SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singing dataset collected from YouTube, it is mainly used to support supervised machine learning performing paralinguistic singing attribute recognition tasks. In SVQTD, there are nearly 4000 vocal solo segments with $4 - 20$ seconds long, totaling 10.7 hours. These segmenets are partitioned from 400 audios of 6 famous tenor arias. Furthermore, each segment is seperrately labeled on seven verbal scales corresponding to seven paralinguistic singing attributes widely used in vocal pedagogy. 
 
-## Seven paralinguistic singing attributes
+## Paralinguistic singing attributes selected
 
 1. Chest Resonance
 
-   - Typical vocal color: It is related to a darker and deeper tone coloring and a sense of power, warmth, and sensuality.
+   - Annotation: During labeling, annotators assess each vocal segment and subjectively assess the extensity of chest resonance by a 4-class ordinal scale (from class 0 to class 3). For reference only, the class 4 for a group of singing voices that is darkest, strongest, and with strongest vibratory sensation compared with other singing voices in the dataset. Class 1 for a contrary situation. The judgment process is based on listeners music cognition and perception. 
 
-   - Annotation: During labeling, annotators assess each vocal segment and subjectively assess the extensity of chest resonance by a 4-class ordinal scale. For reference only, the 4 for a group of singing voices that is darkest, strongest, and with strongest vibratory sensation compared with other singing voices in the dataset. Level 1 for a contrary situation. The judgment process is based on listeners music cognition and perception. 
+   - Simple description: Strong chest resonance is related to a darker and deeper tone coloring and a sense of power, warmth, and sensuality.
 
-   - Typical example pairs:
+   - Examplars:
 
-     | Chest Resonance                    | Class: 2                           | Class: 4                           |
-     | ---------------------------------- | ---------------------------------- | ---------------------------------- |
-     | Spectrogram+forments visualization | ![](./image_examples/Chest_C2.png) | ![](./image_examples/Chest_C4.png) |
-     | audio                              | [Click](./audio_examples/Chest_C2.wav)  | [Click](./audio_examples/Chest_C4.wav)  |
+     | Chest Resonance                    | Class 1                                | Class 3                                |
+     | ---------------------------------- | -------------------------------------- | -------------------------------------- |
+     | Spectrogram+forments visualization | ![](./image_examples/Chest_C2.png)     | ![](./image_examples/Chest_C4.png)     |
+     | audio                              | [Click](./audio_examples/Chest_C2.wav) | [Click](./audio_examples/Chest_C4.wav) |
 
 2. Head Resonance
 
-   - Typical vocal color: It is primarily related to a softer, richer, and smoother singing voice
+   - Annotation: During labeling, annotators are told to subjectively rate the 4-class ordinal scale of head voice from class 0 to 3 for the vocal segments. For reference only, class 3 for a group of singing voices with best head register technique which means smoothest and richest quality compared with other singing voices in the dataset. And class 0 for a contrary situation.
 
-   - Annotation: During labeling, the annotators are told to subjectively rate the 4-class ordinal scale of head voice from 1 to 4 for the vocal segments. For reference only, 4 for a group of singing voices with best head register technique which means smoothest and richest quality compared with other singing voices in the dataset. And level 1 for a contrary situation.
+   - Simple description: Strong head resonance is related to a softer, richer, and smoother singing voice. 
 
-   - Typical example pairs:
+   - Examplars:
 
-     | Head Resonance                     | Class: 1                          | Class: 4                          |
+     | Head Resonance                     | Class 0                         | Class 3                          |
      | ---------------------------------- | --------------------------------- | --------------------------------- |
      | Spectrogram+forments visualization | ![](./image_examples/Head_C1.png) | ![](./image_examples/Head_C4.png) |
      | audio                              | [Click](./audio_examples/Head_C1.wav)  | [Click](./audio_examples/Head_C4.wav)  |
 
 3. Front Placement singing
 
-   - Typical vocal color: Nasal quality
-
-   - Annotation: During labeling, listeners need to judge whether the singing segment is mask singing/forward placement singing with an obvious nasal quality based on a binary scale, 0 for without, 1 for with.
+   - Annotation: During labeling, listeners need to judge whether the singing segment is overly mask singing/forward placement singing with an obvious nasal quality based on a binary scale, 0 for without, 1 for with.
 
    - Typical example pairs:
 
-     | Front Placement singing            | Class: 1                           | Class: 2                           |
-     | ---------------------------------- | ---------------------------------- | ---------------------------------- |
-     | Spectrogram+forments visualization | ![](./image_examples/Front_C1.png) | ![](./image_examples/Front_C2.png) |
-     | audio                              | [Click](./audio_examples/Front_C1.wav)  | [Click](./audio_examples/Front_C2.wav)  |
+     | Overly front placement singing     | Class 0                                | Class 1                                |
+     | ---------------------------------- | -------------------------------------- | -------------------------------------- |
+     | Spectrogram+forments visualization | ![](./image_examples/Front_C1.png)     | ![](./image_examples/Front_C2.png)     |
+     | audio                              | [Click](./audio_examples/Front_C1.wav) | [Click](./audio_examples/Front_C2.wav) |
 
 4. Back placement singing
 
-   - Typical vocal color: Swallowed quality
+   - Annotation: Annotators need to subjectively judge whether the singing segment is "extreme" back placement singing which is characterized by uncomfortable swallowing quality based on a binary scale, 0 for without, 1 for with.
 
-   - Annotation: During labeling, annotators need to subjectively judge whether the singing segment is "extreme" back placement singing which is characterized by uncomfortable swallowing quality based on a binary scale, 0 for without, 1 for with.
+   - Examplars:
 
-   - Typical example pairs:
-
-     | Back Placement singing             | Class: 1                                 | Class: 2                                 |
+     | Overly  back placement singing     | Class 0                                  | Class 1                                  |
      | ---------------------------------- | ---------------------------------------- | ---------------------------------------- |
      | Spectrogram+forments visualization | ![Back_C1](./image_examples/Back_C1.png) | ![Back_C2](./image_examples/Back_C2.png) |
-     | audio                              | [Click](./audio_examples/Back_C1.wav)         | [Click](./audio_examples/Back_C2.wav)         |
+     | audio                              | [Click](./audio_examples/Back_C1.wav)    | [Click](./audio_examples/Back_C2.wav)    |
 
 5. Open throat/openness
 
-   - Typical vocal color: N/A 
+   - Annotation: The open throat scale ranges from class 1 to 4. For reference only, level 1 for a group of singing voices that feel extremely uncomfortable, strained, narrow. And level 4 for a contrary situation.
 
-   - Annotation: The open throat scale ranges from 1 to 4. For reference only, level 1 for a group of singing voices that feel extremely uncomfortable, strained, narrow. And level 4 for a contrary situation.
+   - Examplars:
 
-   - Typical example pairs:
-
-     | Open throat                        | Class: 1                          | Class: 4                          |
+     | Open throat                        | Class 0                    | Class 1                    |
      | ---------------------------------- | --------------------------------- | --------------------------------- |
      | Spectrogram+forments visualization | ![](./image_examples/Open_C1.png) | ![](./image_examples/Open_C4.png) |
      | audio                              | [Click](./audio_examples/Open_C1.wav)  | [Click](./audio_examples/Open_C4.wav)  |
 
 6. Roughness
 
-   - Typical vocal color: N/A 
-
    - Annotation: During labeling, annotators pay attention to judge whether there is apparent roughness in the vocal segment, 0 for without, 1 for with. 
 
-   - Typical example pairs:
+   - Examplars:
 
-     | Roughness                          | Class: 1                           | Class: 2                           |
-     | ---------------------------------- | ---------------------------------- | ---------------------------------- |
-     | Spectrogram+forments visualization | ![](./image_examples/Rough_C1.png) | ![](./image_examples/Rough_C2.png) |
-     | audio                              | [Click](./audio_examples/Rough_C1.wav)  | [Click](./audio_examples/Rough_C2.wav)  |
+     | Roughness                          | Class 0                                | Class 1                                |
+     | ---------------------------------- | -------------------------------------- | -------------------------------------- |
+     | Spectrogram+forments visualization | ![](./image_examples/Rough_C1.png)     | ![](./image_examples/Rough_C2.png)     |
+     | audio                              | [Click](./audio_examples/Rough_C1.wav) | [Click](./audio_examples/Rough_C2.wav) |
 
 7. Vibrato
 
-   - Typical vocal color: N/A 
-
    - Annotation: During labeling, the annotators should focus on the vibrato of vocal segments, rating segments as 0 for having no vibrato, 1 for having good vibrato, or 2 for having bad vibrato.
+
+   - Simple discription: bad vibrato means very uncomfortable feeling, it is named as wobble or tremolo in vocal pedagogy. 
 
    - Typical example pairs:
 
-     | Vibrato                            | Class: 2                             | Class: 3                             |
-     | ---------------------------------- | ------------------------------------ | ------------------------------------ |
-     | Spectrogram+forments visualization | ![](./image_examples/Vibrato_C2.png) | ![](./image_examples/Vibrato_C3.png) |
-     | audio                              | [Click](./audio_examples/Vibrato_C2.wav)  | [Click](./audio_examples/Vibrato_C3.wav)  |
+     | Vibrato                            | Class: 1                                 | Class: 2                                 |
+     | ---------------------------------- | ---------------------------------------- | ---------------------------------------- |
+     | Spectrogram+forments visualization | ![](./image_examples/Vibrato_C2.png)     | ![](./image_examples/Vibrato_C3.png)     |
+     | audio                              | [Click](./audio_examples/Vibrato_C2.wav) | [Click](./audio_examples/Vibrato_C3.wav) |
 
 ## Production pipeline
 
@@ -126,5 +120,6 @@ To download the released dataset, please:
 Kindly remind: using the proposed dataset, please cite:
 (undone)
 
-Note
-Since the dataset contains 4,000 vocal segments extracted from about 400 unique YouTube audios. To avoid the data leakage, we make sure segments in the train set and validation set are from different arias. However, we can not make sure that they are from different persons because we can not get singer's identity for each video. We suggest you to keep the original partition.
+## Epilogue
+
+Our study represents an initial attempt at exploring paralinguistic singing attribute recognition. We express our appreciation for the valuable contributions of the annotators who provided their opinions, as well as the singers who offered their performances. Moving forward, we intend to pursue further research in this area. 
