@@ -19,7 +19,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Chest Resonance                    | Class 1                                                      | Class 3                                                      |
      | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
      | Spectrogram+forments visualization | ![](./image_examples/Chest_C2.png)                           | ![](./image_examples/Chest_C4.png)                           |
-     | audio                              | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C2.wav" type="audio/mp3"><br/></video> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C4.wav" type="audio/mp3"><br/></video> |
+     | audio                              | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C2.wav" type="audio/mp3"><br/></audio> | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C4.wav" type="audio/mp3"><br/></audio> |
 
 2. Head Resonance
 
@@ -32,7 +32,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Head Resonance                     | Class 0                         | Class 3                          |
      | ---------------------------------- | --------------------------------- | --------------------------------- |
      | Spectrogram+forments visualization | ![](./image_examples/Chest_C2.png) | ![](./image_examples/Chest_C4.png) |
-     | audio                              | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C2.wav" type="audio/mp3"><br/></video> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C4.wav" type="audio/mp3"><br/></video> |
+     | audio                              | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C2.wav" type="audio/mp3"><br/></audio> | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C4.wav" type="audio/mp3"><br/></audio> |
      
      
 
@@ -45,7 +45,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Overly front placement singing     | Class 0                                                      | Class 1                                                      |
      | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
      | Spectrogram+forments visualization | ![](./image_examples/Front_C1.png)                           | ![](./image_examples/Front_C2.png)                           |
-     | audio                              | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Front_C1.wav" type="audio/mp3"><br/></video> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Front_C2.wav" type="audio/mp3"><br/></video> |
+     | audio                              | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Front_C1.wav" type="audio/mp3"><br/></audio> | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Front_C2.wav" type="audio/mp3"><br/></audio> |
 
 4. Back placement singing
 
@@ -56,7 +56,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Overly  back placement singing     | Class 0                                                      | Class 1                                                      |
      | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
      | Spectrogram+forments visualization | ![Back_C1](./image_examples/Back_C1.png)                     | ![Back_C2](./image_examples/Back_C2.png)                     |
-     | audio                              | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Back_C1.wav" type="audio/mp3"><br/></video> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Back_C2.wav" type="audio/mp3"><br/></video> |
+     | audio                              | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Back_C1.wav" type="audio/mp3"><br/></audio> | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Back_C2.wav" type="audio/mp3"><br/></audio> |
 
 5. Open throat/openness
 
@@ -67,7 +67,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Open throat                        | Class 0                    | Class 1                    |
      | ---------------------------------- | --------------------------------- | --------------------------------- |
      | Spectrogram+forments visualization | ![](./image_examples/Open_C1.png) | ![](./image_examples/Open_C4.png) |
-     | audio                              | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Open_C1.wav" type="audio/mp3"><br/></video> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Open_C4.wav" type="audio/mp3"><br/></video> |
+     | audio                              | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Open_C1.wav" type="audio/mp3"><br/></audio> | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Open_C4.wav" type="audio/mp3"><br/></audio> |
 
 6. Roughness
 
@@ -78,7 +78,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Roughness                          | Class 0                                                      | Class 1                                                      |
      | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
      | Spectrogram+forments visualization | ![](./image_examples/Rough_C1.png)                           | ![](./image_examples/Rough_C2.png)                           |
-     | audio                              | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Rough_C1.wav" type="audio/mp3"><br/></video> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Rough_C2.wav" type="audio/mp3"><br/></video> |
+     | audio                              | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Rough_C1.wav" type="audio/mp3"><br/></audio> | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Rough_C2.wav" type="audio/mp3"><br/></audio> |
 
 7. Vibrato
 
@@ -91,7 +91,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Vibrato                            | Class: 1                                                     | Class: 2                                                     |
      | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
      | Spectrogram+forments visualization | ![](./image_examples/Vibrato_C2.png)                         | ![](./image_examples/Vibrato_C3.png)                         |
-     | audio                              | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Vibrato_C2.wav" type="audio/mp3"><br/></audio> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Vibrato_C3.wav" type="audio/mp3"><br/></video> |
+     | audio                              | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Vibrato_C2.wav" type="audio/mp3"><br/></audio> | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Vibrato_C3.wav" type="audio/mp3"><br/></audio> |
 
 ## Production pipeline
 
