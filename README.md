@@ -117,8 +117,9 @@ To download the released dataset, please:
 1. Download the Agreement Sheet.pdf and sign it.
 2. Send the PDF version of scanned Agreement Sheet with signature to yanze.xu@outlook.com. 
 3. We will return an e-mail with download link to you as soon as possible.
-Kindly remind: using the proposed dataset, please cite:
-(undone)
+  Kindly remind: using the proposed dataset, please cite:
+
+> Xu, Y., Wang, W., Cui, H. *et al.* Paralinguistic singing attribute recognition using supervised machine learning for describing the classical tenor solo singing voice in vocal pedagogy. *J AUDIO SPEECH MUSIC PROC.* **2022**, 8 (2022). https://doi.org/10.1186/s13636-022-00240-z
 
 ## Epilogue
 
