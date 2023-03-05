@@ -19,7 +19,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Chest Resonance                    | Class 1                                                      | Class 3                                                      |
      | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
      | Spectrogram+forments visualization | ![](./image_examples/Chest_C2.png)                           | ![](./image_examples/Chest_C4.png)                           |
-     | audio                              | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Head_C1.wav" type="audio/mp3"><br/></video> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Head_C4.wav" type="audio/mp3"><br/></video> |
+     | audio                              | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C2.wav" type="audio/mp3"><br/></video> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C4.wav" type="audio/mp3"><br/></video> |
 
 2. Head Resonance
 
@@ -40,12 +40,12 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
 
    - Annotation: During labeling, listeners need to judge whether the singing segment is overly mask singing/forward placement singing with an obvious nasal quality based on a binary scale, 0 for without, 1 for with.
 
-   - Typical example pairs:
+   - Examplars:
 
-     | Overly front placement singing     | Class 0                                | Class 1                                |
-     | ---------------------------------- | -------------------------------------- | -------------------------------------- |
-     | Spectrogram+forments visualization | ![](./image_examples/Front_C1.png)     | ![](./image_examples/Front_C2.png)     |
-     | audio                              | [Click](./audio_examples/Front_C1.wav) | [Click](./audio_examples/Front_C2.wav) |
+     | Overly front placement singing     | Class 0                                                      | Class 1                                                      |
+     | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+     | Spectrogram+forments visualization | ![](./image_examples/Front_C1.png)                           | ![](./image_examples/Front_C2.png)                           |
+     | audio                              | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Front_C1.wav" type="audio/mp3"><br/></video> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Front_C2.wav" type="audio/mp3"><br/></video> |
 
 4. Back placement singing
 
@@ -53,10 +53,10 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
 
    - Examplars:
 
-     | Overly  back placement singing     | Class 0                                  | Class 1                                  |
-     | ---------------------------------- | ---------------------------------------- | ---------------------------------------- |
-     | Spectrogram+forments visualization | ![Back_C1](./image_examples/Back_C1.png) | ![Back_C2](./image_examples/Back_C2.png) |
-     | audio                              | [Click](./audio_examples/Back_C1.wav)    | [Click](./audio_examples/Back_C2.wav)    |
+     | Overly  back placement singing     | Class 0                                                      | Class 1                                                      |
+     | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+     | Spectrogram+forments visualization | ![Back_C1](./image_examples/Back_C1.png)                     | ![Back_C2](./image_examples/Back_C2.png)                     |
+     | audio                              | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Back_C1.wav" type="audio/mp3"><br/></video> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Back_C2.wav" type="audio/mp3"><br/></video> |
 
 5. Open throat/openness
 
@@ -86,7 +86,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
 
    - Simple discription: bad vibrato means very uncomfortable feeling, it is named as wobble or tremolo in vocal pedagogy. 
 
-   - Typical example pairs:
+   - Examplars:
 
      | Vibrato                            | Class: 1                                 | Class: 2                                 |
      | ---------------------------------- | ---------------------------------------- | ---------------------------------------- |
