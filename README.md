@@ -19,7 +19,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Chest Resonance                    | Class 1                                                      | Class 3                                                      |
      | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
      | Spectrogram+forments visualization | ![](./image_examples/Chest_C2.png)                           | ![](./image_examples/Chest_C4.png)                           |
-     | audio                              | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C2.wav" type="audio/mp3"><br/></video> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C4.wav" type="audio/mp3"><br/></video> |
+     | audio                              | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Head_C1.wav" type="audio/mp3"><br/></video> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Head_C4.wav" type="audio/mp3"><br/></video> |
 
 2. Head Resonance
 
@@ -32,7 +32,9 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Head Resonance                     | Class 0                         | Class 3                          |
      | ---------------------------------- | --------------------------------- | --------------------------------- |
      | Spectrogram+forments visualization | ![](./image_examples/Head_C1.png) | ![](./image_examples/Head_C4.png) |
-     | audio                              | [Click](./audio_examples/Head_C1.wav)  | [Click](./audio_examples/Head_C4.wav)  |
+     | audio                              | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C2.wav" type="audio/mp3"><br/></video> | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C4.wav" type="audio/mp3"><br/></video> |
+     
+     
 
 3. Front Placement singing
 
