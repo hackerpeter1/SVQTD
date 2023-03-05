@@ -105,11 +105,11 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
 
 | Bad sample                                                   | Description                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Click](./audio_examples/bad_samples/--L3uqoQUV4/16.mp3)<audio controls="" autoplay="" name="media"><br/>    <source src="https://github.com/hackerpeter1/SVQTD/raw/page/audio_examples/bad_samples/--L3uqoQUV4/16.mp3"><br/></audio> | The background music is not separated and can be heard clearly. |
-| [Click](./audio_examples/bad_samples/1eMtK2-0GOU/0.mp3)      | The background music is not separated and can be heard clearly. |
-| [Click](./audio_examples/bad_samples/_yoQ2PMVMRY/17.mp3)     | The last whispering can not be heard clearly.                |
-| [Click](./audio_examples/bad_samples/_bSHFUqcs8g/8.mp3)      | The Spleeter doesn't work for the low register, which means the background music is not separated and can be heard clearly. And it works too much for the highest register, especially the singing of the highest note can not be heard clearly. |
-| [Click](./audio_examples/bad_samples/b5pkuOAzzVM&list=PLcO-An1UmmHXT2NRraQU-EDf2sFkjFOJk&index=15&t=0s/14.mp3) | Several singing vowels of high register can not be heard clearly. |
+| <audio controls="" autoplay="" name="media"><br/>    <source src="https://github.com/hackerpeter1/SVQTD/raw/page/audio_examples/bad_samples/--L3uqoQUV4/16.mp3"><br/></audio> | The background music is not separated and can be heard at the beginning. |
+| <audio controls="" autoplay="" name="media"><br/>    <source src="https://github.com/hackerpeter1/SVQTD/raw/page/audio_examples/bad_samples/1eMtK2-0GOU/0.mp3"><br/></audio> | The background music is not separated and can be heard clearly. |
+| <audio controls="" autoplay="" name="media"><br/>    <source src="https://github.com/hackerpeter1/SVQTD/raw/page/audio_examples/bad_samples/_yoQ2PMVMRY/17.mp3"><br/></audio> | The last whispering can not be heard clearly.                |
+| <audio controls="" autoplay="" name="media"><br/>    <source src="https://github.com/hackerpeter1/SVQTD/raw/page/audio_examples/bad_samples/_bSHFUqcs8g/8.mp3"><br/></audio> | The Spleeter doesn't work for the low register, which means the background music is not separated and can be heard clearly. And it works too much for the highest register, especially the singing of the highest note can not be heard clearly. |
+| <audio controls="" autoplay="" name="media"><br/>    <source src="https://github.com/hackerpeter1/SVQTD/raw/page/audio_examples/bad_samples/b5pkuOAzzVM%26list%3DPLcO-An1UmmHXT2NRraQU-EDf2sFkjFOJk%26index%3D15%26t%3D0s/14.mp3"><br/></audio> | Several singing vowels of high register can not be heard clearly. |
 
 
 ## Data Request
