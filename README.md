@@ -1,9 +1,10 @@
 ### Please switch to page branch for dataset downloading.
 
 ### Dataset preparation
-* 1. download youtube videos using python script and convert to audios using ffmpeg
-* 2. performing music source separation based on spleeter
-* 3. energy-based segmentation, code can be found in xxx (coming soon). 
+* 1. download youtube videos with a python script and convert to audios using [ffmpeg](https://ffmpeg.org/)
+* 2. performing music source separation based on [spleeter](https://github.com/deezer/spleeter)
+* 3. energy-based segmentation, reference code can be found in ./split.py
+* 4. extracting feature set using [OPENSMILE](https://audeering.github.io/opensmile/) (optional, only if you are interested in training with traditional feature set)
 
 ### Training files
 * 1. Some pooling method for recognition neural network can be found in ./modules.
