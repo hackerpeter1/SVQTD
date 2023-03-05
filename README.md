@@ -16,10 +16,12 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
 
    - Examplars:
 
-     | Chest Resonance                    | Class 1                                | Class 3                                |
-     | ---------------------------------- | -------------------------------------- | -------------------------------------- |
-     | Spectrogram+forments visualization | ![](./image_examples/Chest_C2.png)     | ![](./image_examples/Chest_C4.png)     |
-     | audio                              | [Click](./audio_examples/Chest_C2.wav) | [Click](./audio_examples/Chest_C4.wav) |
+     [Click](./audio_examples/Chest_C4.wav)
+     
+     | Chest Resonance                    | Class 1                                | Class 3                                                      |
+     | ---------------------------------- | -------------------------------------- | ------------------------------------------------------------ |
+     | Spectrogram+forments visualization | ![](./image_examples/Chest_C2.png)     | ![](./image_examples/Chest_C4.png)                           |
+     | audio                              | [Click](./audio_examples/Chest_C2.wav) | <video controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C4.wav" type="audio/mp3"><br/></video> |
 
 2. Head Resonance
 
@@ -55,10 +57,6 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | ---------------------------------- | ---------------------------------------- | ---------------------------------------- |
      | Spectrogram+forments visualization | ![Back_C1](./image_examples/Back_C1.png) | ![Back_C2](./image_examples/Back_C2.png) |
      | audio                              | [Click](./audio_examples/Back_C1.wav)    | [Click](./audio_examples/Back_C2.wav)    |
-     
-     <video controls="" autoplay="" name="media">
-         <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C2.wav" type="audio/mp3">
-     </video>
 
 5. Open throat/openness
 
