@@ -1,8 +1,6 @@
-
-
 > Motivation: better describe and discriminate the timbral phenomena of singing voices from vocal pedagogy point of view. 
 >
-> Keyword: music perception and cognition, paralinguistic singing attribute recognition, timbre analysis
+> Keywords: music perception and cognition, paralinguistic singing attribute recognition, timbre analysis
 
 # SVQTD - Singing Voice Quality and Technique Database
 ## Introduction
@@ -57,6 +55,12 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | ---------------------------------- | ---------------------------------------- | ---------------------------------------- |
      | Spectrogram+forments visualization | ![Back_C1](./image_examples/Back_C1.png) | ![Back_C2](./image_examples/Back_C2.png) |
      | audio                              | [Click](./audio_examples/Back_C1.wav)    | [Click](./audio_examples/Back_C2.wav)    |
+     
+     ```bash
+     <video controls="" autoplay="" name="media">
+         <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C2.wav" type="audio/mp3">
+     </video>
+     ```
 
 5. Open throat/openness
 
