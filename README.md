@@ -1,4 +1,4 @@
-### Please switch to page branch about how to get data.
+For doing research, **Data Request** instructions are in our page [here](hackerpeter1.github.io/SVQTD/).
 
 ### Dataset preparation
 * 1. download youtube videos with a python script and convert to audios using [ffmpeg](https://ffmpeg.org/)
