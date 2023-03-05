@@ -56,11 +56,9 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Spectrogram+forments visualization | ![Back_C1](./image_examples/Back_C1.png) | ![Back_C2](./image_examples/Back_C2.png) |
      | audio                              | [Click](./audio_examples/Back_C1.wav)    | [Click](./audio_examples/Back_C2.wav)    |
      
-     ```bash
      <video controls="" autoplay="" name="media">
          <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C2.wav" type="audio/mp3">
      </video>
-     ```
 
 5. Open throat/openness
 
