@@ -1,4 +1,4 @@
-### Please switch to page branch for dataset downloading.
+### Please switch to page branch about how to get data.
 
 ### Dataset preparation
 * 1. download youtube videos with a python script and convert to audios using [ffmpeg](https://ffmpeg.org/)
