@@ -32,8 +32,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Head Resonance                     | Class 0                         | Class 3                          |
      | ---------------------------------- | --------------------------------- | --------------------------------- |
      | Spectrogram+forments visualization | ![](./image_examples/Chest_C2.png) | ![](./image_examples/Chest_C4.png) |
-     | audio                              | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C2.wav" type="audio/mp3"><br/></audio> | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C4.wav" type="audio/mp3"><br/></audio> |
-     
+     | audio                              | <audio controls><br/>  <source src="./audio_examples/Chest_C2.wav"><br/></audio> | <audio controls><br/>  <source src="./audio_examples/Chest_C4.wav"><br/></audio> |
      
 
 3. Front Placement singing
@@ -45,7 +44,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Overly front placement singing     | Class 0                                                      | Class 1                                                      |
      | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
      | Spectrogram+forments visualization | ![](./image_examples/Front_C1.png)                           | ![](./image_examples/Front_C2.png)                           |
-     | audio                              | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Front_C1.wav" type="audio/mp3"><br/></audio> | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Front_C2.wav" type="audio/mp3"><br/></audio> |
+     | audio                              | <audio controls><br/>  <source src="./audio_examples/Front_C1.wav"><br/></audio> | <audio controls><br/>  <source src="./audio_examples/Front_C2.wav"><br/></audio> |
 
 4. Back placement singing
 
@@ -56,7 +55,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Overly  back placement singing     | Class 0                                                      | Class 1                                                      |
      | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
      | Spectrogram+forments visualization | ![Back_C1](./image_examples/Back_C1.png)                     | ![Back_C2](./image_examples/Back_C2.png)                     |
-     | audio                              | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Back_C1.wav" type="audio/mp3"><br/></audio> | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Back_C2.wav" type="audio/mp3"><br/></audio> |
+     | audio                              | <audio controls><br/>  <source src="./audio_examples/Back_C1.wav"><br/></audio> | <audio controls><br/>  <source src="./audio_examples/Back_C2.wav"><br/></audio> |
 
 5. Open throat/openness
 
@@ -67,7 +66,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Open throat                        | Class 0                    | Class 1                    |
      | ---------------------------------- | --------------------------------- | --------------------------------- |
      | Spectrogram+forments visualization | ![](./image_examples/Open_C1.png) | ![](./image_examples/Open_C4.png) |
-     | audio                              | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Open_C1.wav" type="audio/mp3"><br/></audio> | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Open_C4.wav" type="audio/mp3"><br/></audio> |
+     | audio                              | <audio controls><br/>  <source src="./audio_examples/Open_C1.wav"><br/></audio> | <audio controls><br/>  <source src="./audio_examples/Open_C4.wav"><br/></audio> |
 
 6. Roughness
 
@@ -78,7 +77,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Roughness                          | Class 0                                                      | Class 1                                                      |
      | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
      | Spectrogram+forments visualization | ![](./image_examples/Rough_C1.png)                           | ![](./image_examples/Rough_C2.png)                           |
-     | audio                              | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Rough_C1.wav" type="audio/mp3"><br/></audio> | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Rough_C2.wav" type="audio/mp3"><br/></audio> |
+     | audio                              | <audio controls><br/>  <source src="./audio_examples/Rough_C1.wav"><br/></audio> | <audio controls><br/>  <source src="./audio_examples/Rough_C2.wav"><br/></audio> |
 
 7. Vibrato
 
@@ -91,7 +90,7 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
      | Vibrato                            | Class: 1                                                     | Class: 2                                                     |
      | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
      | Spectrogram+forments visualization | ![](./image_examples/Vibrato_C2.png)                         | ![](./image_examples/Vibrato_C3.png)                         |
-     | audio                              | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Vibrato_C2.wav" type="audio/mp3"><br/></audio> | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Vibrato_C3.wav" type="audio/mp3"><br/></audio> |
+     | audio                              | <audio controls><br/>  <source src="./audio_examples/Vibrato_C2.wav"><br/></audio> | <audio controls><br/>  <source src="./audio_examples/Vibrato_C3.wav"><br/></audio> |
 
 ## Production pipeline
 
@@ -105,11 +104,11 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
 
 | Bad sample                                                   | Description                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <audio controls="" autoplay="" name="media"><br/>    <source src="https://github.com/hackerpeter1/SVQTD/raw/page/audio_examples/bad_samples/--L3uqoQUV4/16.mp3"><br/></audio> | The background music is not separated and can be heard at the beginning. |
-| <audio controls="" autoplay="" name="media"><br/>    <source src="https://github.com/hackerpeter1/SVQTD/raw/page/audio_examples/bad_samples/1eMtK2-0GOU/0.mp3"><br/></audio> | The background music is not separated and can be heard clearly. |
-| <audio controls="" autoplay="" name="media"><br/>    <source src="https://github.com/hackerpeter1/SVQTD/raw/page/audio_examples/bad_samples/_yoQ2PMVMRY/17.mp3"><br/></audio> | The last whispering can not be heard clearly.                |
-| <audio controls="" autoplay="" name="media"><br/>    <source src="https://github.com/hackerpeter1/SVQTD/raw/page/audio_examples/bad_samples/_bSHFUqcs8g/8.mp3"><br/></audio> | The Spleeter doesn't work for the low register, which means the background music is not separated and can be heard clearly. And it works too much for the highest register, especially the singing of the highest note can not be heard clearly. |
-| <audio controls="" autoplay="" name="media"><br/>    <source src="https://github.com/hackerpeter1/SVQTD/raw/page/audio_examples/bad_samples/b5pkuOAzzVM%26list%3DPLcO-An1UmmHXT2NRraQU-EDf2sFkjFOJk%26index%3D15%26t%3D0s/14.mp3"><br/></audio> | Several singing vowels of high register can not be heard clearly. |
+| <audio controls><br/>  <source src="./audio_examples/bad_samples/--L3uqoQUV4/16.mp3"><br/></audio> | The background music is not separated and can be heard at the beginning. |
+| <audio controls><br/>  <source src="./audio_examples/bad_samples/1eMtK2-0GOU/0.mp3"><br/></audio> | The background music is not separated and can be heard clearly. |
+| <audio controls><br/>  <source src="./audio_examples/bad_samples/_yoQ2PMVMRY/17.mp3"><br/></audio> | The last whispering can not be heard clearly.                |
+| <audio controls><br/>  <source src="./audio_examples/bad_samples/_bSHFUqcs8g/8.mp3"><br/></audio> | The Spleeter doesn't work for the low register, which means the background music is not separated and can be heard clearly. And it works too much for the highest register, especially the singing of the highest note can not be heard clearly. |
+| <audio controls><br/>  <source src="./audio_examples/bad_samples/b5pkuOAzzVM%26list%3DPLcO-An1UmmHXT2NRraQU-EDf2sFkjFOJk%26index%3D15%26t%3D0s/14.mp3"><br/></audio> | Several singing vowels of high register can not be heard clearly. |
 
 
 ## Data Request
