@@ -16,16 +16,10 @@ SVQTD (Singing Voice Quality and Technique Database) is a classical tenor singin
 
    - Examplars:
 
-     | Chest Resonance                    | Class 1                            | Class 3                                                      |
-     | ---------------------------------- | ---------------------------------- | ------------------------------------------------------------ |
-     | Spectrogram+forments visualization | ![](./image_examples/Chest_C2.png) | ![](./image_examples/Chest_C4.png)                           |
-     | audio                              |                                    | <audio controls="" autoplay="" name="media"><br/>    <source src="https://yanzexu.xyz/SVQTD/audio_examples/Chest_C4.wav" type="audio/mp3"><br/></audio> |
-
-   <audio controls>
-     <source src="./audio_examples/Chest_C2.wav">
-   </audio>
-
-   
+     | Chest Resonance                    | Class 1                                                      | Class 3                                                      |
+     | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+     | Spectrogram+forments visualization | ![](./image_examples/Chest_C2.png)                           | ![](./image_examples/Chest_C4.png)                           |
+     | audio                              | <audio controls><br/>  <source src="./audio_examples/Chest_C2.wav"><br/></audio> | <audio controls><br/>  <source src="./audio_examples/Chest_C4.wav"><br/></audio> |
 
 2. Head Resonance
 
